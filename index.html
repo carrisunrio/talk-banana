@@ -6,6 +6,9 @@
     
     <title>Talk Banana</title>
     <style>
+        body{
+            margin: auto;
+        }
         textarea{
             width: 80%;
             display: block;
@@ -20,6 +23,33 @@
             margin: 1rem;
             padding: 1rem;
         }
+        h1, h2{
+            background-color: yellow;
+            margin: 0px;
+            padding: 20px;
+            font-family: cursive;
+            text-align: center;
+        }
+        #btn-translate{
+            margin: 20px;
+            background-color: yellow;
+            border-radius: 2mm;
+            padding: 20px;
+            font-family: cursive;
+            font-weight: bolder;
+            font-size: larger;
+            cursor: pointer;
+        }
+        footer{
+            background-color: yellow;
+            padding: 20px;
+            font-family: cursive;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -29,6 +59,7 @@
     <button id="btn-translate">Translate</button>
     <h2>Output Banana Text 👇</h2>
     <div id="output"></div>
+    <footer>Created by carrisunrio 😎 </footer>
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
